@@ -1,0 +1,10 @@
+name: survey-desk
+version: 1.0.0
+description: "Exact land-survey computation for Hermes: closed traverses with misclosure, Bowditch/transit adjustment, area cross-checked two ways, blunder-leg detection, PROJ datum conversion (Minna, Nigeria belts, UTM, any EPSG) and plan drawings exported as PNG, PDF, DXF, KML and GeoJSON."
+author: "Ferz"
+requires_hermes: ">=0.19"
+provides_tools:
+  - survey_traverse
+  - survey_plan
+  - survey_convert
+  - survey_inverse

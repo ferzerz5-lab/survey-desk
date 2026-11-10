@@ -1,0 +1,10 @@
+[project]
+name = "survey-desk"
+version = "1.0.0"
+description = "Exact land-survey computation and plan plotting for Hermes Agent"
+requires-python = ">=3.10"
+dependencies = [
+  "pyproj>=3.6,<4",
+  "matplotlib>=3.8,<4",
+  "ezdxf>=1.1,<2",
+]
